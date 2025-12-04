@@ -10,12 +10,14 @@
    ========================================================================== */
 :root {
   --primary-green: #2E7D32;
+  --primary-blue: #00c3ff;
   --dark-green: #1B5E20;
   --accent-color: #FFC107;
   --dark-bg: #121212;
   --light-bg: #F4F4F4;
   --white: #FFFFFF;
   --text-dark: #212121;
+  
   --shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
@@ -45,7 +47,7 @@ main {
    3. LAYOUT: HEADER, NAVEGACIÓN Y LOGO
    ========================================================================== */
 header {
-  background-color: var(--dark-green);
+  background-color: var(--primary-blue);
   color: var(--white);
   display: flex;
   justify-content: space-between;
@@ -329,7 +331,7 @@ footer {
 
 /* --- Sección Hero (Página de Inicio aqui se cambia la imagen) --- */
 .hero {
-  background: linear-gradient(rgba(18, 18, 18, 0.5), rgba(18, 18, 18, 0.5)), url('el pelon') center/cover no-repeat;
+  background: linear-gradient(rgba(18, 18, 18, 0.5), rgba(18, 18, 18, 0.5)), url('imagenes/el\ pelon.jpg') center/cover no-repeat;
   height: 80vh;
   display: flex;
   align-items: center;
