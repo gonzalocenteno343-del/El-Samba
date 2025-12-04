@@ -327,9 +327,9 @@ footer {
    6. ESTILOS DE SECCIONES ESPECÍFICAS
    ========================================================================== */
 
-/* --- Sección Hero (Página de Inicio) --- */
+/* --- Sección Hero (Página de Inicio aqui se cambia la imagen) --- */
 .hero {
-  background: linear-gradient(rgba(18, 18, 18, 0.5), rgba(18, 18, 18, 0.5)), url('proyecto/img/Ecofriendly.jpg') center/cover no-repeat;
+  background: linear-gradient(rgba(18, 18, 18, 0.5), rgba(18, 18, 18, 0.5)), url('el pelon') center/cover no-repeat;
   height: 80vh;
   display: flex;
   align-items: center;
