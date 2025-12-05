@@ -1,0 +1,14 @@
+Guarda tus cambios locales
+git status
+
+
+Agrega los cambios
+git add .
+
+
+Crea un commit
+git commit -m "Hice tal cosa"
+
+
+Enviar los cambios a Git hub 
+git push origin main

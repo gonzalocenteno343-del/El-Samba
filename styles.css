@@ -513,7 +513,7 @@ main.page-about {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 3rem;
-  align-items: center;
+  align-items: start;
   margin-bottom: 4rem;
 }
 
@@ -535,6 +535,7 @@ main.page-about {
   grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
   margin-bottom: 4rem;
+  align-items: start;
 }
 
 .bloque.card {
@@ -718,4 +719,53 @@ nav ul li.dropdown .dropdown-menu li a.active {
   color: var(--primary-green); /* VERDE */
   background-color: var(--dark-bg); /* Fondo oscuro para contraste */
   font-weight: bold;
+}
+
+
+/* ==========================================================================
+   11. ESTILOS PARA Responsabilidad social empresarial (CORREGIDO Y LIMPIO)
+   ========================================================================== */
+.intro-text {
+    padding-left: 10px; /* Ajusta a tu gusto */
+}
+
+.content-wrapper {
+    padding: 0 0px;   /* espacio a los lados */
+}
+
+.intro .content-wrapper,
+.mision-vision .content-wrapper {
+    margin-bottom: 0rem; 
+}
+.intro-image {
+    padding-left: 50px;
+}
+
+.bloque.card ul {
+    padding-left: 1rem;
+    margin: 0;
+    list-style-type: disc;
+}
+.bloque.card li {
+    margin-bottom: 0.5rem;
+}
+/* ==============================
+   Estilo para el texto de RSE
+   ============================== */
+.intro-text, 
+.mision-vision .content-wrapper p {
+    padding-left: 35px;      /* espaciado a la izquierda */
+    padding-right: 20px;     /* espaciado a la derecha */
+    font-size: 1.5rem;       /* tamaño de letra un poco más grande */
+    line-height: 1.7;        /* mejor separación entre líneas */
+    text-align: justify;     /* opcional: justifica el texto */
+    color: var(--text-dark); /* color principal del texto */
+}
+
+
+/* ==============================
+   Ajuste de espaciado solo para "Nosotros"
+   ============================== */
+.page-about .intro-text {
+    padding-left: 10px;  /* espacio a la izquierda */
 }
